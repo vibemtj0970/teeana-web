@@ -33,7 +33,7 @@ nav{
     align-items: center;
     justify-content:space-between;
     padding: 0px 40px;
-    height: 100px;
+    height: 80px;
     background-color:rgba(227, 226, 226, 0.717);
     
 
@@ -44,8 +44,8 @@ nav{
 
 
 .nav-img{
-    height: 100px;
-    width: 100px;
+    height:80px;
+    width: 80px;
     cursor: pointer;
     
     
@@ -76,6 +76,10 @@ nav{
 .nav-links i:hover{
     color: rgb(141, 97, 32);
     font-size: 20px;
+}
+
+#section-1{
+    padding-top: 80px;
 }
 
 .section-1-container{
@@ -110,6 +114,7 @@ nav{
     padding-bottom: 20px;
 }
 
+
 .section-3-container{
     display: flex;
     flex-direction: column;
@@ -120,10 +125,12 @@ nav{
     width: 350px;
     height: 400px;
     box-shadow: 0px 20px 50px -12px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     border: none;
 }
+
+
 
 .section-3-description h1{
     font-size: 16px;
@@ -154,3 +161,104 @@ nav{
     padding-right: 60px;
     padding-bottom: 50px;
 }
+
+
+.section-4-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-4-img{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 20px 50px -12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.section-4-description h1{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 17px;
+    
+}
+
+.section-4-description p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 8px;
+     color: rgba(122, 120, 120, 0.897);
+}
+
+.section-4-description b{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+#section-4-all-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+
+
+
+.section-5-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-5-img{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 20px 50px -12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.section-5-description h1{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 17px;
+    
+}
+
+.section-5-description p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 8px;
+     color: rgba(122, 120, 120, 0.897);
+}
+
+.section-5-description b{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+#section-5-all-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+
+
